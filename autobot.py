@@ -113,6 +113,7 @@ class Autobot:
 
 if __name__ == "__main__":
     from cred import *
+    
     bot = Autobot()
     bot.login(consumer_key,access_token,app_id,user_id,password)
 
